@@ -8,7 +8,7 @@ bazulab is a place for experiments
 
 ## Stay in touch
 
-Contact at [public@bazulab.com](public@bazulab.com)
+Contact at [public@bazulab.com](mailto:public@bazulab.com)
 
 ## License
 
