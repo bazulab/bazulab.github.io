@@ -26,6 +26,7 @@ header {
 
 .logo {
   display: flex;
+  width: fit-content;
   margin-top: -10px;
   font-size: 40px;
   text-decoration: none;
