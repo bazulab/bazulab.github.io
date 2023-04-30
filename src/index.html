@@ -39,11 +39,6 @@
       })(window, document, 'script', 'dataLayer', 'GTM-5WQLCBG')
     </script>
     <!-- End Google Tag Manager -->
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Comfortaa"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -58,7 +53,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <header>
-      <div class="navbar">
+      <div class="header__content">
         <a class="logo" href="https://bazulab.com">
           <img class="logo__image" src="/logo.svg" alt="logo" />
           <span class="logo__text">
@@ -72,13 +67,44 @@
     </header>
 
     <main>
-      <span class="info">Place for experiments</span>
+      <div class="main__content">
+        <h1>Experiments</h1>
+        <ul class="experiments__list">
+          <li class="experiments__item">
+            <a
+              class="experiments__item-link"
+              target="_blank"
+              href="https://proxy.bazulab.com"
+              aria-label="Link to proxy website"
+            >
+              <div class="experiments__item-text-block">
+                <span class="experiments__item-name">Proxy</span>
+                <span class="experiments__item-description"
+                  >A simple web proxy that allows access websites anonymously
+                  without any vpn settings</span
+                >
+                <span class="experiments__item-url"
+                  >https://proxy.bazulab.com</span
+                >
+              </div>
+              <img
+                class="experiments__item-image"
+                src="/proxy.png"
+                alt="Proxy site image"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
     </main>
 
     <footer>
-      <a target="_blank" class="email" href="mailto:public@bazulab.com"
-        >public@bazulab.com</a
-      >
+      <div class="footer__content">
+        <a target="_blank" class="email" href="mailto:public@bazulab.com"
+          >public@bazulab.com</a
+        >
+        <span class="copyright">© 2023 bazulab</span>
+      </div>
     </footer>
 
     <script type="module" src="/main.js"></script>
