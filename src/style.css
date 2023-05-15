@@ -44,6 +44,8 @@ a {
 
 /* Header */
 header {
+  position: sticky;
+  top: 0;
   height: var(--header-height);
   background-color: var(--header-background-color);
 }
@@ -109,6 +111,7 @@ h1 {
   height: var(--main-card-image-height);
   background-color: var(--main-card-color);
   color: var(--main-card-contrast-color);
+  margin-bottom: 48px;
 }
 
 .experiments__item-link {
@@ -132,10 +135,12 @@ h1 {
 }
 
 .experiments__item-url {
+  word-break: break-all;
   text-decoration: underline;
 }
 
 .experiments__item-image {
+  background: white;
   height: var(--main-card-height);
 }
 
