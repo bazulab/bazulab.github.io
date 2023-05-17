@@ -32,8 +32,8 @@ a {
   --main-background-color: #e9c46a;
   --main-contrast-color: #264653;
   --main-card-height: 400px;
-  --main-card-name-font-size: 28px;
-  --main-card-description-font-size: 20px;
+  --main-card-name-font-size: 1.8em;
+  --main-card-description-font-size: 1.4em;
   --main-card-color: #2a9d8f;
   --main-card-contrast-color: #e9c46a;
 
@@ -130,7 +130,7 @@ h1 {
 }
 
 .experiments__item-description {
-  margin: 24px 0 48px;
+  margin: 24px 0;
   font-size: var(--main-card-description-font-size);
 }
 
