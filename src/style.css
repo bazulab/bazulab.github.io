@@ -25,13 +25,13 @@ a {
 :root {
   --content-max-width: 1024px;
 
-  --header-height: 144px;
+  --header-height: 80px;
   --header-background-color: #264653;
   --header-contrast-color: #e9c46a;
 
   --main-background-color: #e9c46a;
-  --main-contrast-color: #264653;
-  --main-card-height: 400px;
+  --main-contrast-color: #2a9d8f;
+  --main-card-height: 320px;
   --main-card-name-font-size: 1.8em;
   --main-card-description-font-size: 1.4em;
   --main-card-color: #2a9d8f;
@@ -111,7 +111,7 @@ h1 {
   height: var(--main-card-image-height);
   background-color: var(--main-card-color);
   color: var(--main-card-contrast-color);
-  margin-bottom: 48px;
+  margin-bottom: 36px;
 }
 
 .experiments__item-link {
@@ -130,7 +130,7 @@ h1 {
 }
 
 .experiments__item-description {
-  margin: 24px 0;
+  margin: 36px 0 24px;
   font-size: var(--main-card-description-font-size);
 }
 

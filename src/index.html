@@ -68,7 +68,7 @@
 
     <main>
       <div class="main__content">
-        <h1>Experiments</h1>
+        <h1>Place for experiments</h1>
         <ul class="experiments__list">
           <li class="experiments__item">
             <a
@@ -77,21 +77,20 @@
               href="https://proxy.bazulab.com"
               aria-label="Link to proxy website"
             >
-              <div class="experiments__item-text-block">
-                <span class="experiments__item-name">Proxy</span>
-                <span class="experiments__item-description"
-                  >A simple web proxy that allows access websites anonymously
-                  without any vpn settings</span
-                >
-                <span class="experiments__item-url"
-                  >https://proxy.bazulab.com</span
-                >
-              </div>
               <img
                 class="experiments__item-image"
                 src="/proxy-5x4.png"
                 alt="Proxy site"
               />
+              <div class="experiments__item-text-block">
+                <span class="experiments__item-name">Web proxy</span>
+                <span class="experiments__item-description"
+                  >Anonymous access to any website</span
+                >
+                <span class="experiments__item-url"
+                  >https://proxy.bazulab.com</span
+                >
+              </div>
             </a>
           </li>
           <li class="experiments__item">
@@ -101,20 +100,20 @@
               href="https://www.youtube.com/@bazulab"
               aria-label="Link to youtube channel"
             >
+              <img
+                class="experiments__item-image"
+                src="/youtube-channel-logo.png"
+                alt="YouTube logo"
+              />
               <div class="experiments__item-text-block">
-                <span class="experiments__item-name">Synth music</span>
+                <span class="experiments__item-name">@bazulab on Youtube</span>
                 <span class="experiments__item-description"
-                  >A collection of synth music published on YouTube</span
+                  >Synth music production</span
                 >
                 <span class="experiments__item-url"
                   >https://www.youtube.com/@bazulab</span
                 >
               </div>
-              <img
-                class="experiments__item-image"
-                src="/youtube-logo-5x4.jpg"
-                alt="YouTube logo"
-              />
             </a>
           </li>
         </ul>
@@ -126,7 +125,11 @@
         <a target="_blank" class="email" href="mailto:public@bazulab.com"
           >public@bazulab.com</a
         >
-        <span class="copyright">© 2023 bazulab</span>
+        <span class="copyright">
+          <script>
+            document.write('©' + new Date().getFullYear() + ' bazulab')
+          </script>
+        </span>
       </div>
     </footer>
 
