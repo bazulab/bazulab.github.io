@@ -94,12 +94,13 @@ main {
 
 .main__content {
   max-width: var(--content-max-width);
-  margin: 48px auto;
+  margin: 36px auto;
   color: var(--main-contrast-color);
 }
 
-h1 {
+.experiments__header {
   text-align: center;
+  margin: 0 24px 0;
 }
 
 .experiments__list {
