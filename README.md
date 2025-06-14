@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://bazulab.com/" target="blank"><img src="https://bazulab.com/favicon-128.png" alt="bazulab logo" /></a>
+  <a href="http://www.bazulab.com/" target="blank"><img src="https://www.bazulab.com/favicon-128.png" alt="bazulab logo" /></a>
 </p>
 
 ## Description
